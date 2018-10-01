@@ -1,0 +1,44 @@
+<!--
+/*
+*  Le professeur a fait preuve de dysléxie et a inversé le contenu de deux 
+*  variables.
+* 
+*  Faites afficher le message normalement SEULEMENT en ajoutant du code
+*/
+-->
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div id="ppal">
+        Le professeur a fait preuve de dysléxie et a inversé le contenu de deux variables.
+        <br/><br/>
+        Faites afficher le message <b>"Bienvenue,je suis votre prof d'algo"</b>
+        SEULEMENT en ajoutant du code   
+        <br/><br/>
+    </div>
+    <hr/>    
+    <script>
+        // Ne pas modifier les lignes ci-dessous        
+        var messageA = "je suis votre prof d'algo" ;
+        var messageB = "Bienvenue," ;
+        // Ne pas modifier les lignes ci-dessus
+
+            // A faire ici
+
+        // Ne pas modifier les lignes ci-dessous
+        document.write( messageA  ); 
+        document.write( messageB );
+        
+
+        if( (messageA+messageB).startsWith("Bien") && (messageA+messageB).endsWith("algo") ){
+            document.write("<br/><br/><br/><b>BRAVO</b>")
+    }
+
+// Ne pas modifier les lignes ci-dessus
+    </script>
+</body>
+</html>
